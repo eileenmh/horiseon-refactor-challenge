@@ -14,15 +14,16 @@
     margin: 0;
 }
 
-/* === BODY === */
-body {
+
+html {
     background-color: #d9dcd6;
-    font-size: 16px;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* === HEADER === */
 header {
-    padding: 20px;
+    padding: 1.25rem;
     background-color: #2a607c;
     color: #ffffff;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -30,7 +31,7 @@ header {
    /* --- h1 --- */
     h1 {
         display: inline-block;
-        font-size: 3em;
+        font-size: 3rem;
     }
         span {
             color: #d9dcd6;
@@ -38,18 +39,17 @@ header {
         
     /* --- Navigation --- */
     nav {
-        padding-top: 15px;
-        margin-right: 20px;
+        padding-top: 0.9375em;
+        margin-right: 1.25rem;
         float: right;
-        font-size: 1.25em;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.25rem;
     }
         nav ul {
             list-style-type: none;
         }
         nav li {
             display: inline-block;
-            margin-left: 25px;
+            margin-left: 1.5625rem;
         }
             a {
                 color: #ffffff;
@@ -78,13 +78,12 @@ header {
         margin-bottom: 20px;
         padding: 50px;
         height: 300px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         background-color: #0072bb;
         color: #ffffff;
     }
         .content h2 {
             margin-bottom: 20px;
-            font-size: 2.25em;
+            font-size: 2.25rem;
         }
         .content img {
             max-height: 200px;
@@ -107,15 +106,14 @@ header {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
     .benefits div {
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
         color: #ffffff;
     }
         .h3 {
-            margin-bottom: 10px;
+            margin-bottom: 0.625rem;
             text-align: center;
         }
         .benefits img {
@@ -126,11 +124,11 @@ header {
 
 /* === FOOTER === */
 footer {
-    padding: 30px;
+    padding: 1.875em;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
     footer h2 {
-        font-size: 1.25em;
+        font-size: 1.25rem;
     }
