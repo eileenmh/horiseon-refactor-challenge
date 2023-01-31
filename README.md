@@ -2,7 +2,7 @@
 
 ## Description
 
-For this week's UNC Bootcamp challenge, we were asked to refactor a marketing agency's website to make it more accessible.
+For this week's UNC Bootcamp challenge, we were asked to refactor a marketing agency's website to make it more accessible. View the deployment on [GitHub Pages](https://eileenmh.github.io/horiseon-refactor-challenge/).
 
 We were provided with the following acceptance criteria:
 ```GIVEN a webpage meets accessibility standards
